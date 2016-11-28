@@ -1,56 +1,230 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>About me</title>
-  
- 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- <link rel="stylesheet" type= text/css href="style.css">
+<html lang="en">
 
- 
-</head>
-<body>
+    <head>
 
-  	<header>
-    <h1>Stella Wu</h1>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Stella Wu</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/favicon.ico">
+
+    </head>
+
+    <body>
     
-    <ul class="nav nav-tabs">
-  <li role="presentation" class="active"><a href="index.html">About</a></li>
-  <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-  <li role="presentation"><a href="contact.html">Contact</a></li>
-</ul>
-   
-  	</header>
-    
-<div class="container">
-    <section class="Aboutme col-lg-8 col-md-10 col-sm-12 col-xs-12">
-    <h2>About Me</h2>
-    <img id= "profile" src="images/profile.jpg" alt= "Profile Picture" class="img-rounded col-lg-4 col-md-6 col-sm-6 col-xs-4">
-    <p> A proud longhorn graduate, NY licensed attorney. Working as CTO right now for a legal tech startup in Austin, TX.
-    <br><br> A former idealist, stand-up comedian wannabe, and unapologetically Chinese.
-      <br><br> I am happily married as of 6/18/2016 - my husband Dan Zhang is a Computer Engineering PhD student in UT.</p>
-    </section>
+        <!-- Loader -->
+    	<div class="loader">
+    		<div class="loader-img"></div>
+    	</div>
+		
+		<!-- Top menu -->
+		<nav>
+			<a class="scroll-link" href="#top-content">Top</a>
+			<a class="scroll-link" href="#what-we-do">About</a>
+			<a class="scroll-link" href="#portfolio">Portfolio</a>
+			<a class="scroll-link" href="#team">Find Stella</a>
+			<a class="scroll-link" href="#contact">Contact</a>
+			</nav>
+		
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="top-content-text wow fadeInUp">
+            	<div class="divider-2"><span></span></div>
+            	<h1><a href="">Stella</a></h1>
+            	<div class="divider-2"><span></span></div>
+            	<p>A lawyer, full-stack developer and Salesfore Guru. <br> A very proud Longhorn graduate.</p>
+            </div>
+        </div>
+        
+        <!-- What we do -->
+        <div class="what-we-do-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 what-we-do section-description wow fadeIn">
+	                    <h2>About</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <p>
+	                    	I am passionate about learning new things and always wonder how hard can something be.
+	                    </p>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 what-we-do-box wow fadeInUp">
+	                	<div class="what-we-do-box-icon"><i class="fa fa-pencil"></i></div>
+	                    <h3>Laywer</h3>
+	                    <p>I am licensed in the State of NY in 2016 <br> and in China in 2014.</p>
+                    </div>
+                    <div class="col-sm-4 what-we-do-box wow fadeInDown">
+	                	<div class="what-we-do-box-icon"><i class="fa fa-gears"></i></div>
+	                    <h3>Full-Stack Developer</h3>
+	                    <p>We do cool things with HTML, CSS, Javascript, jquery, MySQL, Sequelize, AJAX, PHP, Mongo, Firebase ... etc, and of course, Node.JS.</p>
+                    </div>
+                    <div class="col-sm-4 what-we-do-box wow fadeInUp">
+	                	<div class="what-we-do-box-icon"><i class="fa fa-twitter"></i></div>
+	                    <h3>Salesforce Guru</h3>
+	                    <p>I got introduced to Saleforce by chance and was amazed by how open source the platform is and just got really good at it - I am a certified Saleforce 201 Admin as of October, 2016.</p>
+                    </div>
+	            </div>
+	        </div>
+        </div>
+        
+        
+        <!-- Portfolio -->
+        <div class="portfolio-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 portfolio section-description wow fadeIn">
+	                	<h2>Portfolio</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <p>
+	                    	Check out my projects!
+	                    </p>
+	                </div>
+	            </div>
+	            
+	            <div class="row">
+	            	<div class="col-sm-12 portfolio-masonry">
+		                <div class="portfolio-box design">
+		                <a href="https://intense-reef-83827.herokuapp.com/">
+		                	<img src="assets/img/portfolio/crunch.jpeg" alt="" data-at2x="assets/img/portfolio/crunch.jpeg" style='height:50px;width:150px'>
+		                	</a>
+		                	<div class="portfolio-box-text-container">
+		                	</div>
+		                </div>
+		                </div>
+		                </div>
 
-<div class="panel panel-default img-rounded col-lg-3 col-md-4 col-sm-5 col-xs-6">
-  <div class="panel-heading">Connect with Me</div>
-  <div class="panel-body">
-    <a href="https://www.facebook.com/stella.wu.9883">
-    <img id="facebook" src="images/FB.jpg" alt="Facebook Icon" style = "height:50px; width: 50px;">
-    <a href="https://github.com/stellawu734">
-     <img id="github" src="images/github.png" alt="Github Icon" style = "height:50px; width: 50px;">
-     <a href="https://www.linkedin.com/in/stella-wu-182006a4">
-      <img id="linkedin" src="images/Linkedin.png" alt="Linkedin Icon" style = "height:50px; width: 50px;">
-      <a href="http://34220660.wixsite.com/stellawu">
-       <img id="resume" src="images/resume.jpg" alt="Portfolio Icon" style = "height:50px; width: 50px;">
-  </div>
-</div>
+          <!-- The team -->
+        <div class="team-container section-container">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 team section-description wow fadeIn">
+	                    <h2>Where to Find Stella</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <p>
+	                    	If you want to get in touch!
+	                    </p>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-4 team-box wow fadeInUp">
+		                
+	                </div>
+	                <div class="col-sm-4 team-box wow fadeInDown">
+		                <div class="team-photo">
+		                	<img src="assets/img/about/2.jpg" alt="" data-at2x="assets/img/about/2.jpg" style='height:250px;width:320px'>
+		                </div>
+	                    <h3>Stella Wu</h3>
+	                    <p>Lawyer, developer, salesforce Guru.</p>
+	                    <div class="team-social">
+		                	<a href="https://www.linkedin.com/in/stellawu0"><i class="fa fa-linkedin"></i></a>
+		                	<a href="https://www.facebook.com/stella.wu.9883"><i class="fa fa-facebook"></i></a>
+		                	<a href="https://github.com/stellawu734"><i class="fa fa-github"></i></a>
+		                </div>
+	                </div>
+	                <div class="col-sm-4 team-box wow fadeInUp">
+	                </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- Contact us -->
+        <div class="contact-container section-container section-container-gray">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 contact section-description wow fadeIn">
+	                	<h2>Contact me</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <p>
+	                    	I swould love to hear from you!
+	                    </p>
+	                </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12 contact-form wow fadeInLeft">
+	                    <form role="form" action="assets/contact.php" method="post">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="contact-email">Email</label>
+	                        	<input type="text" name="email" placeholder="Email..." class="contact-email" id="contact-email">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="contact-subject">Subject</label>
+	                        	<input type="text" name="subject" placeholder="Subject..." class="contact-subject" id="contact-subject">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="contact-message">Message</label>
+	                        	<textarea name="message" placeholder="Message..." class="contact-message" id="contact-message"></textarea>
+	                        </div>
+	                        <button type="submit" class="btn">Send message</button>
+	                    </form>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- Scroll to top -->
+        <div class="section-container section-container-gray">
+	        <div class="container">
+		        <div class="row">
+		        	<div class="col-sm-12">
+		        		<div class="scroll-to-top">
+		        			<a class="scroll-link" href="#top-content"><i class="fa fa-chevron-up"></i></a>
+		        		</div>
+		        	</div>
+		        </div>
+	        </div>
+        </div>
+                
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	            <div class="row">
+                    <div id='footer' class="col-sm-7 footer-copyright">
+                    	&copy; Riona Bootstrap Template by <a href="http://azmind.com">Azmind</a>.
+                    </div>
+	            </div>
+	        </div>
+        </footer>
+        
 
-    
-    </div>
- 	<footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
- 	<h4> @ Copyright 2016 Stella Wu</h4>
- 	</footer>
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/masonry.pkgd.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
 
-  
-</body>
+    </body>
+
 </html>
